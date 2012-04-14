@@ -9,7 +9,7 @@ class Box
     @width,@height = w, h
   end
 
-  def _(other)        # Define _ to do vector addition
+  def +(other)        # Define _ to do vector addition
     Box.new(@width + other.width, @height + other.height)
   end
 
@@ -21,3 +21,5 @@ class Box
     Box.new(@width*scalar, @height*scalar)
   end
 end
+
+puts "This doesn't output anything"
