@@ -17,7 +17,7 @@ class Box
   end
 
   # instance method
-  def getArea
+  def area
     @width * @height
   end
 end
@@ -29,9 +29,9 @@ box1 = Box.new(10, 20)
 box2 = Box.allocate
 
 # call instance method using box1
-a = box1.getArea()
+a = box1.area()
 puts "Area of the box is : #{a}"
 
 # call instance method using box2
-a = box2.getArea()
+a = box2.area()
 puts "Area of the box is : #{a}"

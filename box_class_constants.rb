@@ -29,7 +29,7 @@ end
 box = Box.new(10, 20)
 
 # call instance methods
-a = box.area()
+a = box.area
 puts "Area of the box is : #{a}"
 puts Box::BOX_COMPANY
 puts "Box weight is: #{Box::BOXWEIGHT}"

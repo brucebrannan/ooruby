@@ -52,8 +52,8 @@ end
 box = Box.new(10, 20)
 
 # call instance methods
-a = box.area()
+a = box.area
 puts "Area of the box is : #{a}"
 
 # try to call protected or private methods
-box.print_area()
+box.print_area

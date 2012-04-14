@@ -11,7 +11,7 @@ class Box
     @width, @height = w, h
   end
   # instance method
-  def Area
+  def area
     @width * @height
   end
 end
@@ -20,7 +20,7 @@ end
 box = Box.new(10, 20)
 
 # call instance methods
-a = box.Area()
+a = box.area
 
 # output
 puts "Area of the box is : #{a}"

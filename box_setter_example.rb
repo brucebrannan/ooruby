@@ -35,8 +35,8 @@ box.width = 30
 box.height = 50
 
 # user accessor methods
-x = box.width()
-y = box.height()
+x = box.width
+y = box.height
 
 # output
 puts "Width of the box is : #{x}"

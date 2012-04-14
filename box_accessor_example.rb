@@ -29,11 +29,11 @@ class Box
   end
 
   # accessor methods
-  def printWidth
+  def print_width
     @width
   end
 
-  def printHeight
+  def print_height
     @height
   end
 end
@@ -42,8 +42,8 @@ end
 box = Box.new(10, 20)
 
 # use accessor methods
-x = box.printWidth()
-y = box.printHeight()
+x = box.print_width
+y = box.print_height
 
 # output width and height
 puts "Width of the box is : #{x}"
